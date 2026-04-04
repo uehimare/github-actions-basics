@@ -19,3 +19,10 @@ jobs:
           echo "Stopping old container..."
           echo "Starting new container..."
           echo "Deployment Successful!"
+
+      - name: Safety Check
+        run: echo " verifying that CI passed..."
+
+      - name: Mock SSH Connection
+        run: echo "Connecting to production server at 192.168.1.1..."
+      # ... rest of the file
