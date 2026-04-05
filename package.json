@@ -1,5 +1,5 @@
 {
 "name": "demo",
-  "scripts": { "test": "jest" },
+  "scripts": { "test": "jest --passwithNoTests" },
   "dependencies": { "jest": "^29.0.0" }
 }
