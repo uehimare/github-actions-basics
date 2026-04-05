@@ -1,6 +1,20 @@
-if [ ! -f package.json ]; then
-  npm init -y
-  npm install jest --save-dev
-  # Add test script to package.json
-  sed -i 's/"test": ".*"/"test": "jest"/' package.json
-fi
+{
+  "name": "github-actions-basics",
+  "version": "1.0.0",
+  "description": "github action basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uehimare/github-actions-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uehimare/github-actions-basics/issues"
+  },
+  "homepage": "https://github.com/uehimare/github-actions-basics#readme"
+}
