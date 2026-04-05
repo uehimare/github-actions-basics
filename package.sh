@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ ! -f package.json ]; then
   npm init -y
   npm install jest --save-dev
