@@ -1,4 +1,4 @@
-me: End-to-End Pipeline
+name: me: End-to-End Pipeline
 on: [push]
 
 jobs:
