@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build-and-push:
-    runs-on: ubuntu-latest
+    runs-on: acada-node
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
