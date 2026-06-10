@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   test-secret:
-    runs-on: ubuntu-latest
+    runs-on: acada-node
     steps:
       - name: Try to print secret
         env:
