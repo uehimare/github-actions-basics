@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   test-secret:
-    runs-on: acada-node
+    runs-on: self-hosted
     steps:
       - name: Try to print secret
         env:
